@@ -83,6 +83,14 @@ p {
     animation-duration: 3s;
 }
 
+.message--chatbot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-style: italic;
+}
+
 .message__author {
   font-size: 0.8rem;
   font-weight: bold;
