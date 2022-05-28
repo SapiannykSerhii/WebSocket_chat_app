@@ -28,7 +28,7 @@ function login (event) {
   } else {
     alert('Insert your name!')
   }
-  console.log(userName);
+  // console.log(userName);
 }
 
 function sendMessage(event) {
@@ -40,7 +40,7 @@ function sendMessage(event) {
   } else {
     addMessage(userName, messageContent)
     socket.emit('message', { 
-      autchor: userName, 
+      author: userName, 
       content: messageContent
     })
     messageContentInput.value = ''
